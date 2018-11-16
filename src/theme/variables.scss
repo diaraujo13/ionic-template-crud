@@ -80,12 +80,12 @@
 
 
 :root {
-  --ion-color-primary: #6f8af4;
+  --ion-color-primary: linear-gradient(to right top, #ff0099, #cd2c87, #9e3671, #72375a, #493240);
   --ion-color-primary-rgb: 111,138,244;
   --ion-color-primary-contrast: #FFF;
   --ion-color-primary-contrast-rgb: 0,0,0;
-  --ion-color-primary-shade: #6279d7;
-  --ion-color-primary-tint: #7d96f5;
+  --ion-color-primary-shade: #cd2c87;
+  --ion-color-primary-tint: #ff0099;
 
   --ion-color-secondary: #1e2025;
   --ion-color-secondary-rgb: 30,32,37;
@@ -144,22 +144,24 @@
   --ion-color-light-tint: #f5f6f9;
 
 
+
+  $text-input-md-highlight-color-invalid: transparent;
+  $text-input-md-highlight-color-valid: transparent;
+  $text-input-md-show-invalid-highlight: transparent;
+  $text-input-md-highlight-color: transparent;
+  $text-input-md-show-valid-highlight: transparent;
+
+
    /* Set the background of the entire app */
    --ion-background-color: #1e2025;
    --ion-text-color: #a2a4ab;
 
-   /* Set the color on all ion-button elements */
-  ion-toolbar {
-    --background: #1e2025;
-  }
-
-  ion-title {
-    font-weight: bold;
-    letter-spacing: .4px;
-  }
+   /** Card Item **/
+   --ion-text-color-step-150: #58595a;
 
 
    /* Set the font family of the entire app */
    --ion-font-family: "Ubuntu", sans-serif;
  
+  
 }

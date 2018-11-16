@@ -9,3 +9,57 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+   ion-header{
+    box-shadow: none;
+
+   }
+   /* Set the color on all ion-button elements */
+  ion-toolbar {
+    --background: #1e2025;
+    box-shadow: none;
+
+}
+
+  ion-title {
+    font-weight: bold;
+    letter-spacing: .4px;
+  }
+
+  a {
+    color: var(--ion-color-dark-tint);
+    text-decoration: none;
+  }
+
+    ion-card {
+        background-image: linear-gradient( #fdfbfb 0%, #ebedee 100%) !important;
+    }
+
+
+    .img-container{
+        display: flex;
+        flex: 0;
+    }
+ ion-card{
+
+    ion-img {
+         flex: 1;
+         padding-left: 2px;
+         padding-right: 2px;
+     }
+ }
+
+ .clearfix {
+     float: none;
+     clear: left;
+ }
+
+.left {
+    float: left;
+
+}
+
+.right{
+    float: right;
+}
